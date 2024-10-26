@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('back.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #43d077fc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.event-card p {
+    margin: 8px 0;
+    color: #faf8f8;
+}
+
+.event-card:last-child {
+    margin-bottom: 32px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#loginPage {
+    background-image: url('newhome.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    text-align: center;
+}
+
+#homepage h1 {
+    font-size: 3.3rem; 
+    color: white;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 15px 30px; 
+    border-radius: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem; 
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+#eventPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    text-align: center;
+}
+
+#eventPage h1 {
+    font-size: 3.5rem; 
+    color: white;
+}
+
+#eventPage p {
+    font-size: 1.5rem; 
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 13px 26px; 
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem; 
+    margin-top: 20px;
+    
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+
